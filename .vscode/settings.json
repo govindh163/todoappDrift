@@ -1,0 +1,30 @@
+{
+    "cSpell.words": [
+        "Architecuture",
+        "Checkmark",
+        "datasource",
+        "informations",
+        "nodoc",
+        "rxdart",
+        "sqflite",
+        "todoform",
+        "todolist",
+        "Todos",
+        "unawaited",
+        "usecase",
+        "viewmodel"
+    ],
+    "files.exclude": {
+        "**/*.freezed.dart": true,
+        "**/*.g.dart": true,
+    },
+    "dart.lineLength": 150,
+    "dart.flutterTestAdditionalArgs": [
+        "lib"
+    ],
+    "[dart]": {
+        "editor.rulers": [
+            150
+        ]
+    },
+}

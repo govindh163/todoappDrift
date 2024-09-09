@@ -1,0 +1,51 @@
+name: clean_architecture_todo_app
+description: CleanArchitecuture TODO App
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0-189.0.dev <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+
+  # Drift
+  drift: ^2.5.0
+  path_provider: ^2.0.13
+  http: ^0.13.5
+  sqlite3: ^1.9.3
+  sqlite3_flutter_libs: ^0.5.13
+
+  # Riverpod
+  provider: ^6.0.3
+  flutter_riverpod: ^2.3.1
+  riverpod: ^2.3.1
+  riverpod_annotation: ^2.0.1
+  collection: ^1.17.0
+  equatable: ^2.0.5
+  intl: ^0.17.0
+  hooks_riverpod: ^2.3.2
+  flutter_hooks: ^0.18.6
+  path: ^1.8.3
+  go_router: ^6.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.0
+  json_serializable: ^6.2.0
+  riverpod_generator: ^2.1.3
+  drift_dev: ^2.4.0
+
+flutter:
+  uses-material-design: true
+
+scripts:
+  test: flutter test lib
+  build: flutter pub run build_runner build --delete-conflicting-outputs
+  watch: flutter pub run build_runner watch
